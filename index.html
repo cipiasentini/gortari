@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Stated &mdash; Website by Colorlib</title>
+    <title>WeHOST BA &mdash; Management de alquileres</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,6 +24,32 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- <script type="text/javascript">
+     function mostrarIframe() {
+       var div = document.getElementById(hidden_div);
+       if (div.style.display == 'none') {
+         div.style.display = '';
+       }
+       else {
+         div.style.display = 'none';
+       }
+     }
+    </script> -->
+
+    <script type="text/javascript">
+      function mostrarIframe(){
+        if (navigator.appName == "Microsoft Internet Explorer") {
+        document.getElementById("mensaje_enviado").innerHTML = "";
+        document.getElementById("mensaje_enviado").style.display = "block";
+        document.getElementById("mensaje_enviado").innerHTML = "<p>Mensaje enviado correctamente. Estaremos en contacto a la brevedad!</p>";
+        } else {
+        document.getElementById("mensaje_enviado").style.display = "block";
+        document.getElementById("contacto_submited").style.display = "block";
+        document.getElementById("contacto_submit").style.display = "none";
+        }
+      }
+    </script>
+
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -45,7 +71,7 @@
         <div class="row align-items-center">
 
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">Gortari.</a></h1>
+            <h1 class="mb-0 site-logo m-0 p-0"><a href="index.html" class="mb-0">WeHOST BA.</a></h1>
           </div>
 
           <div class="col-12 col-md-10 d-none d-xl-block">
@@ -130,7 +156,7 @@
             <img src="images/airbnb.png" alt="airbnb co-host" class="img-fluid" style="width: 200px; height: 75px;">
           </div>
           <div class="col-md-12 text-center" >
-            <small>XXXXXXX es una sociedad independiente y no está afiliada ni asociada a Airbnb o sus afiliados de ninguna forma</small>
+            <small>WeHOST BA es una sociedad independiente y no está afiliada ni asociada a Airbnb o sus afiliados de ninguna forma</small>
           </div>
         </div>
       </div>
@@ -359,7 +385,7 @@
               <img src="images/property_4.jpg" alt="Image" class="img-fluid">
             </div>
             <div class="custom-direction">
-              <a href="#" class="custom-prev">Prev</a><a href="#" class="custom-next">Next</a>
+              <a href="#" class="custom-prev" style="font-size: 25px; margin-left: -1px;">&lt; </a><a href="#" class="custom-next" style="font-size: 25px; margin-right: -1px;"> &gt;</a>
             </div>
 
           </div>
@@ -485,12 +511,12 @@
             <div class="testimonial">
 
               <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                <p>&ldquo;Nous n'avons pas vu Soraya mais nous avons été contacté par WeHOST BA, société qui gère les réservations en l'absence de Soraya. L'organisation avant l'arrivée s'est bien passé. L'appartement était parfait, comme sur les photos. L'appartement est idéalement situé, au coeur du quartier Malasana, nous avons tout pu faire à pied. Seul point négatif: le bruit de la rue le samedi soir (pour la personne dormant sur le canapé, car dans les chambres, on n'entend rien). Mais c'est vraiment le seul point négatif de cet appartement... Sinon, tout est parfait! Je conseille vivement cet appartement!&rdquo;</p>
               </blockquote>
 
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>John Smith</p>
+                <p>Filippo</p>
               </figure>
             </div>
           </div>
@@ -498,11 +524,11 @@
             <div class="testimonial">
 
               <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                <p>&ldquo;Fabulous apartment located in the center of Buenos Aires in the hip neighbourhood of Malasaña, which is full of restaurants and shops. The apartment is beautiful and is even nicer than it seems in the pictures, it's evident that it was worked by a professional interior designer. Everything in the apartment seems new and modern, both bedrooms are spacious and comfortable, the showers are brand new, the living room is very cozy with a sofa bed and you have a flat tv and a full hd cable if you wanna watch tv. The kitchen is small but comfortable, and has everything you need. The host Anton was very helpful and polite since the beginning, and even though he is not in Madrid, he told who would contact me for the check in and everything was perfect and fluent. Minty hosts were the ones who did the check in and they were very attentive and courteous with the communication. I would recommend this beautiful apartment to everyone, 5 stars!&rdquo;</p>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="images/person_2.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Christine Aguilar</p>
+                <p>Christine</p>
               </figure>
 
             </div>
@@ -512,11 +538,11 @@
             <div class="testimonial">
 
               <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                <p>&ldquo;Excellent apartment and experience overall. The location is very central and close to a buzzing area of restaurants and theatres, but the vibe feels much more local than tourist-y. The apartment is stylish, bright, clean, functional and has everything you need. A special note on the excellent kitchen facilities. Juan Carlos was friendly and responsive; there is also a dedicated team who manage the apartment when he is travelling, and they were great - responded immediately to any questions and quickly fixed a minor logistical issue I had.&rdquo;</p>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Robert Spears</p>
+                <p>Robert</p>
               </figure>
 
 
@@ -527,11 +553,11 @@
             <div class="testimonial">
 
               <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
+                <p>&ldquo;I LOVED my stay in Rafael's apartment! Although we never met in person, Salva works with a company that welcomed me, explained little details of the apartment, and throughout my stay if I had a question, they immediately took care of me! From the very start I felt at home in his apartment; it was exactly what I expected as shown in his photos and the terrace in the center of the city was wonderful! I would absolutely stay there again! Thanks for taking such good care of me!! Also, if you are not familiar with Madrid, this is the neighborhood with high-end shopping but also has authentic bars and great places to eat that are reasonably priced.&rdquo;</p>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Bruce Rogers</p>
+                <p>Bruce</p>
               </figure>
 
             </div>
@@ -585,26 +611,37 @@
         <div class="row mb-5">
           <div class="col-12 text-center">
             <!-- <h3 class="section-sub-title">Get</h3> -->
-            <h2 class="section-title mb-3">Contcto</h2>
+            <h2 class="section-title mb-3">Contacto</h2>
           </div>
         </div>
+
+        <iframe src="" name="myIframe" hidden></iframe>
+        <div id="mensaje_enviado" style="display: none">
+          <div class="alert alert-success" role="alert">
+              Mensaje enviado correctamente. Estaremos en contacto a la brevedad!
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-md-7 mb-5">
 
+            <!-- <form action="https://wehost-chico.prod.with-datafire.io/contacto" method="post"
+            class="p-5 bg-white" target="POPUPW"
+            onsubmit="POPUPW = window.open('about:blank','POPUPW','width=500,height=200');"> -->
 
-
-            <form action="#" class="p-5 bg-white">
+            <form action="https://wehost-chico.prod.with-datafire.io/contacto" method="post"
+            class="p-5 bg-white" target="myIframe" onsubmit="mostrarIframe();">
 
               <h2 class="h4 text-black mb-5">Formulario de contacto</h2>
 
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
                   <label class="text-black" for="fname">Nombre</label>
-                  <input type="text" id="fname" class="form-control">
+                  <input type="text" name="fname" maxlength="100" class="form-control" required>
                 </div>
                 <div class="col-md-6">
                   <label class="text-black" for="lname">Apellido</label>
-                  <input type="text" id="lname" class="form-control">
+                  <input type="text" name="lname" maxlength="100" class="form-control" required>
                 </div>
               </div>
 
@@ -612,28 +649,33 @@
 
                 <div class="col-md-12">
                   <label class="text-black" for="email">Email</label>
-                  <input type="email" id="email" class="form-control">
+                  <input type="email" name="email" maxlength="50" class="form-control required">
                 </div>
               </div>
 
-              <!-- <div class="row form-group">
+              <div class="row form-group">
 
                 <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label>
-                  <input type="subject" id="subject" class="form-control">
+                  <label class="text-black" for="subject">Telefono</label>
+                  <input type="number" name="phone" maxlength="30" class="form-control" required>
                 </div>
-              </div> -->
+              </div>
 
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="text-black" for="message">Mensaje</label>
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control"></textarea>
+                  <textarea name="message" name="message" cols="30" maxlength="5000" rows="7" class="form-control" placeholder="Dejanos tu mensaje y te contactaremos a la brevedad" required></textarea>
                 </div>
               </div>
 
               <div class="row form-group">
-                <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                <div id="contacto_submit" class="col-md-12">
+                  <input type="submit" value="Enviar" class="btn btn-primary btn-md text-white" />
+                </div>
+                <div id="contacto_submited" class="col-md-12" style="display: none">
+                  <fieldset disabled>
+                    <input type="submit" value="Gracias por contactarnos" class="btn btn-primary btn-md text-white" />
+                  </fieldset>
                 </div>
               </div>
 
@@ -644,13 +686,13 @@
 
             <div class="p-4 mb-3 bg-white">
               <p class="mb-0 font-weight-bold">Dirección</p>
-              <p class="mb-4">Huspallata 213, Buenos Aires, Argentina</p>
+              <p class="mb-4">Juan Maria Gutierrez 2700 - Departamento 1D; Buenos Aires, Argentina</p>
 
               <p class="mb-0 font-weight-bold">Telefoo</p>
-              <p class="mb-4"><a href="#">+54 11 122334</a></p>
+              <p class="mb-4"><a href="#">+54 11 56381365</a></p>
 
               <p class="mb-0 font-weight-bold">Email</p>
-              <p class="mb-0"><a href="#">salva@gortari.com</a></p>
+              <p class="mb-0"><a href="#">wehostba19@gmail.com</a></p>
 
             </div>
 
@@ -666,23 +708,24 @@
           <div class="col-md-8">
             <div class="row">
               <div class="col-md-5">
-                <h2 class="footer-heading mb-4">About Stated</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                <h2 class="footer-heading mb-4">Sobre WeHOST BA</h2>
+                <p>Creemos que viajar es la mejor manera de conocer nuevas culturas y entornos, nuevas personas de las que aprender, mientras vivimos experiencias inolvidables. Nos sentimos muy orgullosos de ofrecer a anfitriones y huéspedes la posibilidad de beneficiarse mutuamente de estas experiencias, asumiendo el trabajo que conlleva, para que su única preocupación sea disfrutar de su tiempo.</p>
               </div>
               <div class="col-md-3 ml-auto">
-                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <h2 class="footer-heading mb-4">Enlaces</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#home-section">Inicio</a></li>
+                  <li><a href="#about-section">Como funciona</a></li>
+                  <li><a href="#services-section">Servicios</a></li>
+                  <li><a href="#testimonials-section">Evaluaciones de huespedes</a></li>
+                  <li><a href="#contact-section">Contacto</a></li>
                 </ul>
               </div>
 
             </div>
           </div>
           <div class="col-md-4">
-            <div class="mb-4">
+            <!-- <div class="mb-4">
               <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
             <form action="#" method="post" class="footer-subscribe">
               <div class="input-group mb-3">
@@ -692,10 +735,10 @@
                 </div>
               </div>
             </form>
-            </div>
+            </div> -->
 
             <div class="">
-              <h2 class="footer-heading mb-4">Follow Us</h2>
+              <h2 class="footer-heading mb-4">Seguinos</h2>
                 <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
                 <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
                 <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
@@ -710,7 +753,7 @@
             <div class="border-top pt-5">
             <p>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Este template fue hecho con <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
       </p>
             </div>
